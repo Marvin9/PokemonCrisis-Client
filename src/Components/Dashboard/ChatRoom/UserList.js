@@ -11,7 +11,7 @@ export default class UserList extends Component {
 
     render() {
         return (
-            <div id="userList" className="full-height">
+            <div id="userList">
               <div className="jumbotron jumbotron-fluid pt-0">
 
                 <ul className="list-group">

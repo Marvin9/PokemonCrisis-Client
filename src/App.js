@@ -1,11 +1,12 @@
 import React from 'react';
+import Header from './Components/Header'
 
 function App() {
   return (
+    //eslint-disable-next-line
   <React.Fragment>
-      <h1 style={{textAlign : 'center'}}>
-        Minified Template.
-      </h1>
+    <Header />
+    
   </React.Fragment>
   );
 }

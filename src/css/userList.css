@@ -1,0 +1,14 @@
+#userList div.jumbotron {
+    background : none;
+}
+
+#userList .list-group-item {
+    border-radius: 0;
+    text-align: center;
+    padding-left: 0;
+    color:#000;
+}
+
+#userList li.user {
+    cursor: pointer;
+}

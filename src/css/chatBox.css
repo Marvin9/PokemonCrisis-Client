@@ -1,0 +1,9 @@
+div.chatBoxMessages {
+    height: 70%;
+}
+
+div.chatBoxMessages.jumbotron {
+    background: none;
+    overflow-y: scroll;
+    padding:0 20px;
+}

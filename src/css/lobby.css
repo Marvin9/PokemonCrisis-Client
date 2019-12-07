@@ -1,0 +1,8 @@
+#lobby {
+    box-shadow: 10px 0px 20px 3px #000;
+    height: 100%;
+}
+
+#lobby .lobbyName {
+    cursor: pointer;
+}

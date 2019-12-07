@@ -1,0 +1,14 @@
+body {
+    background: #343A40;
+    overflow: hidden;
+    color:#fff;
+}
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.full-height {
+    height : 100vh;
+}

@@ -71,7 +71,7 @@ export default class ChatBoxMessages extends Component {
 
     render() {
         return (
-            <div className="d-flex flex-column chatBoxMessages jumbotron mt-4 mb-0">
+            <div className="d-flex flex-column chatBoxMessages jumbotron mt-4 mb-0" data-simplebar>
 
                 {/* DISPLAY MESSAGES */}
                 {this.state.messages.map((message, key) => (

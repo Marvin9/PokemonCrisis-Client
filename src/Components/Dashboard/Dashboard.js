@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import ChatRoom from './ChatRoom/ChatRoom'
+import Pokemons from './Pokemons'
+import GlobalNews from './GlobalNews'
+import Play from './Play'
+import Menu from './Menu'
 
 export default class Dashboard extends Component {
 
@@ -18,8 +22,17 @@ export default class Dashboard extends Component {
                         </div>
 
                         {/* SECOND COLUMN (5 GRIDS) FOR NEWS, PLAY, MENUS ETC. */}
-                        <div className="col-sm">
-                            
+                        <div className="col-sm p-0 pr-4">
+
+                            <Pokemons />
+
+                            <GlobalNews />
+
+                            <Play />
+
+                            <Menu />   
+
+
                         </div>
 
                     </div>

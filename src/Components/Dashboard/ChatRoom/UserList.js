@@ -12,7 +12,7 @@ export default class UserList extends Component {
     render() {
         return (
             <div id="userList">
-              <div className="jumbotron jumbotron-fluid pt-0">
+              <div className="jumbotron mb-2 pb-0">
 
                 <ul className="list-group">
 
@@ -20,8 +20,8 @@ export default class UserList extends Component {
                         USERS
                     </li>
 
-                    { this.state.users.map(user => (
-                        <li className="list-group-item user">{user}</li>
+                    { this.state.users.map((user, key) => (
+                        <li className="list-group-item user" key={key}>{user}</li>
                     )) }
 
                 </ul>

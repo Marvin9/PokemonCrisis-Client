@@ -8,7 +8,7 @@ export default class ChatBox extends Component {
             <div id="chatbox" className="full-height">
 
                 <div className="chatboxHeader">
-                    <h2 style={{ textAlign: "center" }}>Welcome to Lobby.</h2>
+                    <h2 style={{ textAlign: "center" }}><u>Welcome to Lobby.</u></h2>
                 </div>
 
                 <ChatBoxMessages />

@@ -18,7 +18,9 @@ export default class Dashboard extends Component {
                         </div>
 
                         {/* SECOND COLUMN (5 GRIDS) FOR NEWS, PLAY, MENUS ETC. */}
-                        <div className="col-sm">hello-2</div>
+                        <div className="col-sm">
+                            
+                        </div>
 
                     </div>
                 </div>

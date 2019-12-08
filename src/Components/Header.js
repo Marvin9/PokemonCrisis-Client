@@ -12,7 +12,7 @@ export default class Header extends Component {
     render() {
         return (
             <>
-                <nav className="navbar navbar-dark bg-dark mb-2" id="navbar">
+                <nav className="navbar navbar-dark bg-dark" id="navbar">
                     <div className="container">
 
                         {/* BRAND NAME */}

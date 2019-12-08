@@ -6,4 +6,7 @@ div.chatBoxMessages.jumbotron {
     background: none;
     overflow-y: scroll;
     padding:0 20px;
+    box-shadow: 0px 20px 30px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    transition: .5s;
 }

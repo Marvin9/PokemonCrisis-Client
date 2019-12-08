@@ -2,11 +2,16 @@
     background : none;
 }
 
-#userList .list-group-item {
+#userList .list-group-item, #lobby .list-group-item {
     border-radius: 0;
-    text-align: center;
-    padding-left: 0;
-    color:#000;
+    padding:0;
+    margin-bottom: 10px;
+    background: none;
+    border:none;
+}
+
+ul  li:nth-child(1) {
+    text-decoration: underline;
 }
 
 #userList li.user {

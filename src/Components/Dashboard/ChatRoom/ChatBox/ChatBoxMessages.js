@@ -74,9 +74,9 @@ export default class ChatBoxMessages extends Component {
             <div className="d-flex flex-column chatBoxMessages jumbotron mt-4 mb-0">
 
                 {/* DISPLAY MESSAGES */}
-                {this.state.messages.map(message => (
-                    <div className="message row m-1">
-                        <small className="text-break col-3">{message.username}:</small>
+                {this.state.messages.map((message, key) => (
+                    <div className="message row m-1" key={key}>
+                        <small className="text-break col-3 font-weight-bold">{message.username}:</small>
                         <small className="col p-0" style={{wordBreak : "break-word"}}>{message.message}</small>
                     </div>
                 ))}

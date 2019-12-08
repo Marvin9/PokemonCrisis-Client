@@ -5,20 +5,25 @@ export default class Lobby extends Component {
     constructor() {
         super();
         this.state = {
-            lobby: ["Lobby1", "Lobby2", "Lobby3"]
+            lobby: ["Lobby1", "Lobby2"]
         }
     }
 
     render() {
         return (
-            <div id="lobby" className="jumbotron jumbotron-fluid d-flex flex-column pr-3 pl-1" style={{ background: "none", borderRadius: 0 }}>
-                <div className="badge badge-info mb-3 lobbyName">G</div>
+            <div id="lobby" className="jumbotron pt-2" style={{ background: "none", borderRadius: 0 }}>
 
-                {this.state.lobby.map(lobby => (
-                    <small className="badge badge-secondary mb-3 lobbyName">{lobby}</small>
-                ))}
+                <ul className="list-group">
+                    <li className="list-group-item font-weight-bold lobbyName">Lobby</li>
 
-                <span className="badge badge-success lobbyName"><h4>+</h4></span>
+                    <li className="list-group-item lobbyName">GLOBAL</li>
+
+                    {this.state.lobby.map((lobby, key) => (
+                        <li className="list-group-item lobbyName" key={key}>{lobby}</li>
+                    ))}
+
+                    <li className="list-group-item text-muted lobbyName">+ Add</li>
+                </ul>
             </div>
         )
     }
